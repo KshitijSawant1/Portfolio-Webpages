@@ -1,0 +1,67 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.app {
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Profile image */
+.profile-img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Header section */
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icons a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Links section */
+.links h2 {
+  font-size: 1.3rem;
+  color: blue;
+}
+
+.link-card {
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.link-card a {
+  text-decoration: none;
+  color: blue;
+}

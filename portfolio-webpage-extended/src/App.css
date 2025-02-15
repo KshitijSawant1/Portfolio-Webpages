@@ -1,0 +1,93 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+.navbar {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Profile image */
+.profile-img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Links section */
+.link-card {
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.link-card a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Projects page */
+.projects {
+  padding: 20px;
+}
+
+/* Contact page */
+.contact {
+  padding: 20px;
+}
+/* Carousel Styling */
+.carousel-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.carousel-container h2 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.paper-image {
+  width: 80%;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar div {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 120px;
+  }
+
+  .paper-image {
+    width: 100%;
+  }
+}
+/* Adjust main container to avoid navbar overlap */
+.main-content {
+  margin-top: 80px; /* Pushes content down below the navbar */
+  padding: 20px;
+}

@@ -1,0 +1,90 @@
+/* Home Page Styling */
+.home {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f8f9fa, #eef1f5);
+  min-height: 100vh;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.icons a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #007bff;
+}
+
+/* Tech Presence Links */
+.tech-links {
+  margin-top: 30px;
+}
+
+.tech-links h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-card {
+  display: inline-block;
+  background: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #007bff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.link-card:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* Research Paper Section */
+.carousel-container {
+  margin-top: 40px;
+}
+
+.carousel-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.home {
+  margin-top: 80px; /* Pushes content down below the navbar */
+  padding: 20px;
+}
