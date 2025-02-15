@@ -1,10 +1,4 @@
-Here’s a well-structured **README.md** file for your **GitHub repository** that includes both the **simpler** and **extended** portfolio webpages.
-
----
-
 ## **📌 Portfolio Webpages**
-
-![Portfolio Webpage](https://user-images.githubusercontent.com/your-profile/image.png)  
 A **modern, responsive** portfolio showcasing projects, publications, and contact details. Built with **React & Vite**, this repository contains **two versions**:
 
 1. **Simple Portfolio Webpage** – A clean and minimal portfolio with basic links.
@@ -42,12 +36,12 @@ A **modern, responsive** portfolio showcasing projects, publications, and contac
 ## **📸 Screenshots**
 
 ### 🎯 **Simple Portfolio**
-
-<img src="https://user-images.githubusercontent.com/your-profile/simple-portfolio.png" width="80%">
+<img width="1104" alt="Image" src="https://github.com/user-attachments/assets/4a24f287-36f8-46a2-9c57-7eb606678b29" />
 
 ### 🎯 **Extended Portfolio**
 
-<img src="https://user-images.githubusercontent.com/your-profile/extended-portfolio.png" width="80%">
+<img width="1104" alt="Image" src="https://github.com/user-attachments/assets/ba41ee18-09d4-40d6-be51-8af7a7a0ca70" />
+<img width="1104" alt="Image" src="https://github.com/user-attachments/assets/85897935-c535-4142-b980-da8ec5618475" />
 
 ---
 
